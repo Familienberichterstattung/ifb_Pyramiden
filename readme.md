@@ -18,9 +18,10 @@ Die Daten für die Abbildung kommen vom Bayerischen Landesamt für
 Statistik sowie dem Statistischen Bundesamt.
 
 Die Abbildung orientiert sich an der BiB-Broschüre “Demografischen
-Wandel neu entdecken” und basiert im Wesentlichen auf den vom BiB und
-Cédric Scherer zur Verfügung gestellten
-[Code](https://github.com/z3tt/BiB-population-pyramids).
+Wandel neu entdecken” und basiert im Wesentlichen auf den vom
+[Bundesinstitut für Bevölkerungsforshung](https://www.bib.bund.de/) und
+[Cédric Scherer](https://cedricscherer.netlify.app/) zur Verfügung
+gestellten [R-Code](https://github.com/z3tt/BiB-population-pyramids).
 
 Da wir hier anders als das BiB vorerst lediglich auf frei verfügbare
 Daten zurückgreifen und daher nur eine Abbildung erstellen, haben wir
@@ -30,10 +31,11 @@ einzelnen R-Skript.
 
 ## Danksagung
 
-Wir möchten uns an dieser Stelle nochmal bei allen Beteiligten vom BiB
-sowie bei Cédric Scherer für die exzellente Arbeit und das Teilen des Codes
-bedanken. Ohne dieses exzellente Material hätten wir dieses kleine
-Nebenprojekt nicht in Angriff genommen.
+Wir möchten uns an dieser Stelle nochmal bei allen Beteiligten beim BiB
+sowie bei Cédric Scherer für die Arbeit am Projekt “Demografischen
+Wandel neu entdecken” und das Teilen des Codes bedanken. Ohne dieses
+exzellente Material hätten wir dieses kleine Nebenprojekt nicht in
+Angriff genommen.
 
 ------------------------------------------------------------------------
 
