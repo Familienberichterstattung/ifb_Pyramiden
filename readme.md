@@ -31,7 +31,7 @@ einzelnen R-Skript.
 ## Danksagung
 
 Wir möchten uns an dieser Stelle nochmal bei allen Beteiligten vom BiB
-sowie bei Cédric Scherer für die tolle Arbeit und das Teilen des
+sowie bei Cédric Scherer für die exzellente Arbeit und das Teilen des Codes
 bedanken. Ohne dieses exzellente Material hätten wir dieses kleine
 Nebenprojekt nicht in Angriff genommen.
 
