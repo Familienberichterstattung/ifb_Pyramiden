@@ -1,5 +1,5 @@
 ---
-title: "Bayerische Bevölkerungspyramiden nach Familienstand (2000 - 2010 - 2021)"
+title: "Altersaufbau und Familienstandsgliederung in Bayern in den Jahren 2000, 2010 und 2021"
 output: github_document
 ---
 
@@ -10,10 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *[Marcel Raab](https://marcelraab.de/), [Staatsinstitut für Familienforschung an der Universität Bamberg](https://www.ifb.bayern.de/)*
 
-Dieses kleine Repository enthält die Daten und den Code zur Erstellung einer Abbildung dreier Bevölkerungspyramiden für Bayern. Die Pyramiden differenzieren nach Familienstand und bilden die Populationsverteilungen für die Jahre 2000, 2010 und 2021 ab. 
+Dieses kleine Repository enthält die Daten und den Code zur Erstellung von Abbildungen für die Rubrik "Bevölkerungsstruktur" auf der "Zahlen und Fakten"-Webseite des ifbs. Bei den Abbildungen handelt es sich um Bevölkerungsdiagramme mit Familienstandsgliederung sowie um Balkendiagramme zur Visualisieung alters- und geschlechtsspezifischer relativer Häufigkeiten des Familienstands für die Jahre 2000, 2010 und 2021. 
 
-```{r pressure, echo=FALSE}
+```{r abbildungen, echo=FALSE}
 knitr::include_graphics(here::here("Abbildungen", "Pyramiden_00-10-21.png"))
+knitr::include_graphics(here::here("Abbildungen", "Anteilswerte_00-10-21.png"))
+knitr::include_graphics(here::here("Abbildungen", "Modalwerte_00-10-21.png"))
 ```
 
 
@@ -21,9 +23,12 @@ knitr::include_graphics(here::here("Abbildungen", "Pyramiden_00-10-21.png"))
 
 Die Daten für die Abbildung kommen vom Bayerischen Landesamt für Statistik sowie dem Statistischen Bundesamt.
 
-Die Abbildung orientiert sich an der BiB-Broschüre "Demografischen Wandel neu entdecken" und basiert im Wesentlichen auf den vom [Bundesinstitut für Bevölkerungsforshung](https://www.bib.bund.de/) und [Cédric Scherer](https://cedricscherer.netlify.app/) zur Verfügung gestellten [R-Code](https://github.com/z3tt/BiB-population-pyramids). 
+Die Darstellung der Bevölkerungsdiagramme ("Pyramiden") orientiert sich an der BiB-Broschüre "Demografischen Wandel neu entdecken" und basiert im Wesentlichen auf den vom [Bundesinstitut für Bevölkerungsforshung](https://www.bib.bund.de/) und [Cédric Scherer](https://cedricscherer.netlify.app/) zur Verfügung gestellten [R-Code](https://github.com/z3tt/BiB-population-pyramids). 
 
-Da wir hier anders als das BiB vorerst lediglich auf frei verfügbare Daten zurückgreifen und daher nur eine Abbildung erstellen, haben wir darauf verzichtet wiederverwendbare Funktionen für die Erstellung der Plots zu verwenden. Mithin befindet sich der komplette Code in einem einzelnen R-Skript.
+Da wir hier anders als das BiB vorerst lediglich auf frei verfügbare Daten zurückgreifen und daher nur eine Abbildung mit Bevölkerungsdiagrammen erstellt haben, haben wir darauf verzichtet wiederverwendbare Funktionen für die Erstellung der Plots zu verwenden. Mithin befindet sich der komplette Code für die Bevölkerungsdiagrammen in einem einzelnen R-Skript (`Pyramiden.R`).
+
+Die beiden anderen Abbildungen wurden mit dem zweiten Skript `Verteilungen.R` erstellt.
+
 
 ## Danksagung
 
