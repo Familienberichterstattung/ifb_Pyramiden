@@ -2,7 +2,7 @@ Altersaufbau und Familienstandsgliederung in Bayern in den Jahren 2000,
 2010 und 2021
 ================
 
-*[Marcel Raab](https://marcelraab.de/), [Staatsinstitut für
+[*Marcel Raab*](https://marcelraab.de/)*, [Staatsinstitut für
 Familienforschung an der Universität
 Bamberg](https://www.ifb.bayern.de/)*
 
@@ -14,7 +14,17 @@ Balkendiagramme zur Visualisieung alters- und geschlechtsspezifischer
 relativer Häufigkeiten des Familienstands für die Jahre 2000, 2010 und
 2021.
 
-![](Abbildungen/Pyramiden_00-10-21.png)<!-- -->![](Abbildungen/Anteilswerte_00-10-21.png)<!-- -->![](Abbildungen/Modalwerte_00-10-21.png)<!-- -->
+### Bevölkerungspyramiden mit Familienstandsgliederung
+
+![](Abbildungen/Pyramiden_00-10-21.png)
+
+### Altersspezifische Verteilungen des Familienstands
+
+![](Abbildungen/Anteilswerte_00-10-21.png)
+
+### Häufigkeiten des im jeweiligen Alter am meist beobachteten Familienstands
+
+![](Abbildungen/Modalwerte_00-10-21.png)
 
 ## Quellen
 
