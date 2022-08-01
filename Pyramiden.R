@@ -296,7 +296,8 @@ font_add_google("Roboto", "Roboto")
 showtext_auto()
 
 # Farben für Familienstand (inklusive eines hellen grau für "fehlende Werte")
-colors <- c("#E1E1E1", "#A6A6A6", "#F7AF7A", "#F27279", "#72B2C3") 
+colors <- c("#E1E1E1", "#767676", "#94AF53", "#E95C80", "#56B3EF")
+
 
 # Parameter für die Plots (vornehmlich für den mittleren Achsenlabel-Plot)
 limit_age <- 90

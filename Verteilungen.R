@@ -174,7 +174,7 @@ vline_fmstd <-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Farbvektor
-colors <- c("#A6A6A6", "#F7AF7A", "#F27279", "#72B2C3")
+colors <- c("#767676", "#94AF53", "#E95C80", "#56B3EF")
 names(colors) <- rev(famstd_levels)
 
 # Laden der verwendeten Schriftart
@@ -270,7 +270,7 @@ image_convert(img, "pdf") |>
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Reduzierter Farbvektor (nur drei Modalkategorien)
-colors <- c("#A6A6A6", "#F27279", "#72B2C3")
+colors <- c("#767676","#E95C80", "#56B3EF")
 
 
 # Plot erstellen
@@ -372,3 +372,13 @@ shares_fmstd |>
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+shares_fmstd |> 
+  bind_rows() |> 
+  filter(Familienstand == "verheiratet" & 
+           #Jahr != 2010 & 
+           Alter >= 80) |> 
+  group_by(sex, Jahr) |> 
+  summarise(min = min(share)) 
